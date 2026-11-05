@@ -10,11 +10,9 @@ CCF CSP 认证（第 1–43 次，2014 年 3 月 — 2026 年 9 月）共 **220 
 
 ## 说明
 
-- 题解汇总自网络公开资源（洛谷、CSDN、个人博客、GitHub 等），**非官方发布**，正确性未逐一验证。
-- 部分实现参考 [qzylalala/CSP](https://github.com/qzylalala/CSP)（Apache-2.0），原始出处保留在对应 `.json` 的 `source` 字段。
-- 题目版权归 CCF，本仓库仅用于学习交流。
-- 题面合集 PDF 见 Releases。
+- 220 份实现分两类：**170 份由作者个人使用 AI 生成**，在本地编译并跑样例与随机数据校验（结果记于 `.json` 的 `verification`、`passed`/`total` 字段）；**50 份转载自** [qzylalala/CSP](https://github.com/qzylalala/CSP)（Apache-2.0），出处见对应 `.json` 的 `source` 字段。
+- 非官方发布，仅供参考；题目版权归 CCF，本仓库仅用于学习交流。
 
 ## 许可
 
-原创部分采用 MIT（见 [LICENSE](LICENSE)）；来自 qzylalala/CSP 的 50 份实现遵循 Apache-2.0（全文见 `licenses/`）。范围划分见 [NOTICE.md](NOTICE.md)。
+原创部分（个人使用 AI 生成的 170 份实现、`index.csv`、README）采用 MIT，见 [LICENSE](LICENSE)；转载部分遵循 Apache-2.0，全文见 `licenses/`。范围划分见 [NOTICE.md](NOTICE.md)。
