@@ -1,0 +1,11 @@
+{
+  "id": "202006-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202006/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "对每条查询直线计算各点代入式的符号，检查同一类别的点是否始终同号、两类别是否异号；题目保证直线不经过输入点，无需处理零值。",
+  "complexity": "时间 O(nm)，空间 O(n)，代入式用 64 位整数。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

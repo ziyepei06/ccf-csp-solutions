@@ -1,0 +1,9 @@
+{
+  "id": "201503-1",
+  "passed": 1,
+  "total": 1,
+  "approach": "按行读入矩阵后，输出 m 行 n 列，第 i 行第 j 列取原矩阵 a[j][m-1-i]，即逆时针旋转 90 度；用整块 fread/手写整数解析与输出缓冲加速。",
+  "complexity": "时间 O(n*m)，空间 O(n*m)",
+  "note": "",
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201912-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201912/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "把垃圾坐标放入集合。候选点四个正交邻点均存在时可设回收站，再检查四个对角邻点个数作为评分，累加 0..4 分对应数量。",
+  "complexity": "时间 O(n log n)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 3,
+  "total": 3,
+  "verification": "ok"
+}

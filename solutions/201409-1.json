@@ -1,0 +1,9 @@
+{
+  "id": "201409-1",
+  "passed": 1,
+  "total": 1,
+  "approach": "排序后扫描相邻元素，统计差恰好为 1 的相邻对数。",
+  "complexity": "时间 O(n log n)，空间 O(n)",
+  "note": "",
+  "verification": "ok"
+}

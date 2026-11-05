@@ -1,0 +1,11 @@
+{
+  "id": "201912-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201912/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "从 1 递增模拟报数，数字能被 7 整除或十进制含 7 时跳过并给当前人计数；只有没有跳过的数字才增加有效报数次数，四人始终轮换。",
+  "complexity": "时间 O(扫描数字数·log A)，额外空间 O(1)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

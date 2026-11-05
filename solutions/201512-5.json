@@ -1,0 +1,11 @@
+{
+  "id": "201512-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201512/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "运算在 GF(2) 上进行，即乘法为按位与、加法为异或。预处理 A 的二进制幂；矩阵行列用位块保存，以交集的奇偶性计算内积。查询时把初始行向量乘以对应的若干矩阵幂。",
+  "complexity": "预处理 O(m³ log B / w)，单次查询 O(m² log B / w)，空间 O(m² log B / w)，w=32；优化与位运算常数会影响最大规模表现。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

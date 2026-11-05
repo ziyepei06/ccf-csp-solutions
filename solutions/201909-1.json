@@ -1,0 +1,11 @@
+{
+  "id": "201909-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201909/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "逐棵树累加初始苹果数与每轮疏果量，统计最终总数；记录疏果总量最多的树，同量时保留编号较小者。",
+  "complexity": "时间 O(nm)，额外空间 O(1)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

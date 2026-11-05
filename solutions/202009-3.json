@@ -1,0 +1,11 @@
+{
+  "id": "202009-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202009/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "按连线构建有向逻辑电路，拓扑排序检测是否有环；有环输出 LOOP。无环时对每组输入按拓扑序计算各门的逻辑值，再按问题要求输出所询问门的值。",
+  "complexity": "时间 O(n+m+S(n+m))，空间 O(n+m+Sn)，S 为输入组数。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

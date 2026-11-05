@@ -1,0 +1,9 @@
+{
+  "id": "201412-4",
+  "passed": 1,
+  "total": 1,
+  "approach": "将所有边按费用升序排序，Kruskal 每次选取连接不同连通块的最小边，并用并查集合并。选满 n−1 条边后费用和最小。",
+  "complexity": "时间 O(m log m)，空间 O(n+m)。",
+  "note": "",
+  "verification": "ok"
+}

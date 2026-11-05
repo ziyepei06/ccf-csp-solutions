@@ -1,0 +1,11 @@
+{
+  "id": "202009-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202009/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "计算每个检测点到目标坐标的距离平方，连同编号排序，按距离、编号的字典序输出前三个；无需开方。",
+  "complexity": "时间 O(n log n)，空间 O(n)，平方用 64 位整数。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

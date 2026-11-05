@@ -1,0 +1,11 @@
+{
+  "id": "201512-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201512/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "用字符网格模拟线条，横竖相交时变为加号。填充操作从起点进行四联通洪泛，不越过横线、竖线或加号；每次操作按输入顺序立即修改网格，最终从高 y 到低 y 输出。",
+  "complexity": "网格 n×m、操作 q，最坏时间 O(qnm)，空间 O(nm)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

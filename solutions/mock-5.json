@@ -1,0 +1,9 @@
+{
+  "id": "mock-5",
+  "passed": 1,
+  "total": 1,
+  "approach": "按格子字符建有向图：从 S 正向 BFS 求「能被到达」的集合 A，在反图上从 T BFS 求「能到达 T」的集合 B；若 T 不在 A 中输出 I'm stuck!，否则答案为 |A \\ B|。",
+  "complexity": "时间 O(R*C)，空间 O(R*C)；R,C<=50 完全覆盖",
+  "note": "",
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201604-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201604/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "边只连接距离至多 p 的编号，可以沿编号顺序维护宽度 p 的边界。状态用最小表示法记录边界各点的连通分组，转移枚举当前点到后方的选边集合，并禁止必需点被遗漏或已选连通块提前消失，取最小费用。",
+  "complexity": "设可达连通状态数 S_p，时间 O(n·S_p·2^p·p²)，空间 O(S_p·2^p+n2^p)。p 很小是该算法成立的关键。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201809-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201809/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "对中间摊位取自身及两侧价格的整数平均；两端只有一个邻居，分别取两数平均。必须从原数组计算，不能边覆盖边引用新价格。",
+  "complexity": "时间 O(n)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

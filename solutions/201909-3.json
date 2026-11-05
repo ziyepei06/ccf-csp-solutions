@@ -1,0 +1,11 @@
+{
+  "id": "201909-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201909/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "解析三种十六进制颜色缩写，按 p×q 像素块求平均 RGB 值；输出 ANSI 背景色控制串，相邻块颜色相同时复用当前颜色，每行结束恢复默认。最后把所有输出字节转成规定的十六进制转义文本。",
+  "complexity": "时间 O(nm+输出字节数)，空间 O(nm)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

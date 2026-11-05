@@ -1,0 +1,10 @@
+{
+  "id": "202303-2",
+  "approach": "若要求在 D 天内完成，必要且充分的最少投入为 cost(D)=Σmax(0,t[i]−D)·c[i]。D 越大，花费越小，因此在 [k,max(t)] 中二分最小满足 cost(D)≤m 的 D。",
+  "complexity": "时间 O(n log max(t))，空间 O(n)；花费使用 64 位整数。",
+  "note": "",
+  "proof": "",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

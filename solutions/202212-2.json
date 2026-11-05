@@ -1,0 +1,10 @@
+{
+  "id": "202212-2",
+  "approach": "编号顺序就是拓扑序，最早开始日 e[i]=1（无依赖）或 e[p[i]]+t[p[i]]。若任一科目无法在 n 天内结束，只输出最早时间。否则先令最晚开始日 l[i]=n−t[i]+1，再逆序把 l[p[i]] 收紧为 min(l[p[i]],l[i]−t[p[i]])。",
+  "complexity": "时间 O(m)，空间 O(m)。",
+  "note": "",
+  "proof": "",
+  "passed": 3,
+  "total": 3,
+  "verification": "ok"
+}

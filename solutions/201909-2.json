@@ -1,0 +1,11 @@
+{
+  "id": "201909-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201909/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "每次非正操作为疏果，正操作为重新清点；清点数小于当前记录时标记该树发生掉落并更新数量。最后统计掉落树数，以及环上连续三棵均掉落的位置数。",
+  "complexity": "时间 O(全部操作数)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201909-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201909/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "各类别用有序集合保存商品，按分数降序、编号升序排序。查询把每类当前首项放入优先队列，进行多路归并；某类达到上限后不再推出新商品，直到总数达到 k 或候选耗尽。",
+  "complexity": "增删 O(log S)，一次查询 O((m+k) log m)，空间 O(S+m)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

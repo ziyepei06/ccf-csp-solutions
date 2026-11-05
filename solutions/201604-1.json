@@ -1,0 +1,11 @@
+{
+  "id": "201604-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201604/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "遍历所有内部位置，若前后相邻差值的符号相反，则趋势在该位置由升转降或由降转升，计作一个折点。端点没有两侧邻居，不参与统计。",
+  "complexity": "时间 O(n)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

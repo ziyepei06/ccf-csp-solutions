@@ -1,0 +1,11 @@
+{
+  "id": "201803-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201803/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "路径长度限制仅由树形决定，某个点被多少条合法路径经过与点权无关。点分治统计各点的经过次数和初始路径总和；修改某条路径的权值时，用倍增 LCA 与根路径前缀和求这些计数的和，乘增量更新总答案。",
+  "complexity": "预处理 O(n log² n)，每次修改 O(log n)，空间 O(n log n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

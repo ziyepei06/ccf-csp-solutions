@@ -1,0 +1,10 @@
+{
+  "id": "202112-2",
+  "approach": "仍按 f(x)=i 的区间分段。令 F(t)=Σ(0≤x<t) floor(x/r)，可用完整块与尾块的等差数列求和 O(1) 计算。每段在 x=i·r 处分为 g(x)<i 和 g(x)≥i 两部分，分别计算 i−g(x)、g(x)−i。",
+  "complexity": "时间 O(n)，空间 O(n)；r=N/(n+1)，全部运算使用 64 位整数。",
+  "note": "",
+  "proof": "",
+  "passed": 3,
+  "total": 3,
+  "verification": "ok"
+}

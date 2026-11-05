@@ -1,0 +1,11 @@
+{
+  "id": "201612-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201612/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "枚举数组中出现过的候选值，统计严格小于、严格大于该值的数量；相等元素不属于任意一侧，两侧数量相同即为中间数，否则输出 −1。",
+  "complexity": "实现时间 O(n²)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 3,
+  "total": 3,
+  "verification": "ok"
+}

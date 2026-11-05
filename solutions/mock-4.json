@@ -1,0 +1,9 @@
+{
+  "id": "mock-4",
+  "passed": 1,
+  "total": 1,
+  "approach": "把位置按来自 {0,1} 还是 {2,3} 分成大小 a 与 n-a 的两组：组内只要一个分界点，故合法串数 T=sum C(n,a)*(a-1)*(n-a-1)；再扣除首位为 0 的不合法串 F=sum C(n-1,a)*a*(n-1-a-1)，答案=(T-F) mod 1e9+7。",
+  "complexity": "时间 O(n)（阶乘/逆元 O(n+log MOD)，两重求和 O(n)）；空间 O(n)；n<=1000 实测约 0 ms",
+  "note": "",
+  "verification": "ok"
+}

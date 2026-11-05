@@ -1,0 +1,9 @@
+{
+  "id": "202403-1",
+  "passed": 1,
+  "total": 1,
+  "approach": "逐篇扫描文章的整数序列：每遇到一个单词就累加总出现次数 totalCnt[w]；再用 stamp[w] 记录该单词最近一次被统计的是第几篇文章，若 stamp[w]!=当前文章编号 则说明是本篇首次出现，docCnt[w] 加一并更新 stamp[w]。",
+  "complexity": "时间 O(sum l_i + m)，空间 O(m)",
+  "note": "",
+  "verification": "ok"
+}

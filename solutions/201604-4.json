@@ -1,0 +1,11 @@
+{
+  "id": "201604-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201604/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "状态为棋盘位置与当前时刻，BFS 每次向四邻格前进一秒。对每个落点检查该时刻是否处于其危险区间，只有安全状态才入队；位置相同但时刻不同不能简单合并。",
+  "complexity": "设实现枚举时间上界 T，时间和空间 O(nmT)；该实现采用题面危险时间范围对应的有限时间层。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

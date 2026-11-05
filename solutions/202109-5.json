@@ -1,0 +1,11 @@
+{
+  "id": "202109-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202109/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "新增队员对应在历史队尾下建立新树结点，淘汰只把当前队尾退到父结点，历史分支仍保留。按深度保存各结点首次出现的日期，可二分定位第 s 天排名为 l、r 的队员。两者位于同一祖先链，用 Link-Cut Tree 维护路径乘法懒标记与路径和，并按上次答案解密新参数。",
+  "complexity": "m 次事件总时间 O(m log m)，空间 O(m)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

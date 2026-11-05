@@ -1,0 +1,11 @@
+{
+  "id": "201703-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201703/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "用数组保存当前队列，按编号找到要移动的学生，删除其原位置后插入前后偏移对应的位置；只修改该次移动影响的连续区间。",
+  "complexity": "时间 O(nm)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

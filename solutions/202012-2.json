@@ -1,0 +1,9 @@
+{
+  "id": "202012-2",
+  "passed": 2,
+  "total": 2,
+  "approach": "按 y 升序排序，候选阈值只取出现过的 y；扫描时维护前缀中 result 为 0/1 的个数，正确数 = pref0(低于阈值且实际挂科) + (总1数 - pref1(低于阈值且实际未挂科))；同分取更大阈值。",
+  "complexity": "O(m log m) 时间（排序），O(m) 空间",
+  "note": "",
+  "verification": "ok"
+}

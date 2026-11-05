@@ -1,0 +1,12 @@
+{
+  "id": "201803-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201803/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "按配置顺序逐条匹配路径分量：固定文本必须相同，字符串参数取非空单段，整数参数须全是数字并去前导零，路径参数捕获剩余非空串。保留结尾斜杠差异，第一条完全匹配即输出。",
+  "complexity": "规则数 n、请求数 m、最大长度 L，时间 O(nmL)，空间 O(nL)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok",
+  "errata": "原镜像 HTML 样例中保有 int/str/path 标签，转写时被 HTML 解析器吞掉。"
+}

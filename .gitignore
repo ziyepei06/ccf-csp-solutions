@@ -1,0 +1,6 @@
+.DS_Store
+*.pdf
+.build/
+tmp/
+__pycache__/
+*.pyc

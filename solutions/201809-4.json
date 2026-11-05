@@ -1,0 +1,11 @@
+{
+  "id": "201809-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201809/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "依次枚举首两天原始价格，并由相邻平均值的下取整约束递推出后一天的可取范围，按字典序寻找首个满足全部条件的正整数解。每步保留平均结果的余数区间，最后检查端点条件。",
+  "complexity": "设首两项枚举上界 U，实现最坏 O(U²n)，空间 O(n)；依赖题面价格上界。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

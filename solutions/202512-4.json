@@ -1,0 +1,10 @@
+{
+  "id": "202512-4",
+  "approach": "由题图条件有 AC=B²、EG=F²、F=B，故 D=B³/(CE)。固定 B 后只需枚举 C,E 为 B² 的因子且 CE 整除 B³。该带权计数是积性函数，对 B=p^k 的局部贡献为 Σp^(3k−c−e)，其中 0≤c,e≤2k、c+e≤3k。完美条件排除 C=B、E=B、C=E、CE=B²、C²E=B³、CE²=B³ 六类碰撞；任意两类的交集均为全数等于 B，因此减去六类权和再加回 5B。用线性筛组合各素数幂贡献。",
+  "complexity": "时间 O(n+Σ(p^k≤n)k²)，空间 O(n)。",
+  "note": "图中 AC=B²、EG=F²、B=F 在原 Markdown 中有公式缺失；本解在说明中补出。",
+  "proof": "",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

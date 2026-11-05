@@ -1,0 +1,11 @@
+{
+  "id": "201912-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201912/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "五个给定乘数生成很小的乘法群。线段树结点保存对群中每个可能乘子变换后的区间答案，区间乘法变为对这些状态做置换，并合并懒标记。查询取恒等乘子对应分量。",
+  "complexity": "群大小 G=32，时间 O((n+m log n)G)，空间 O(nG)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

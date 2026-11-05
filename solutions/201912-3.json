@@ -1,0 +1,11 @@
+{
+  "id": "201912-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201912/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "递归解析化学式中的元素、括号及重复数，括号结束后统一乘后缀数量；每个分子再乘反应系数。分别合并等号两侧所有元素的原子数，完全相同则守恒。",
+  "complexity": "时间 O(表达式长度·log E)，空间 O(表达式长度+E)，E 为元素种类。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

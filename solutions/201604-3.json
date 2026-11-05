@@ -1,0 +1,11 @@
+{
+  "id": "201604-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201604/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "把当前目录先拆为分量。查询以斜杠开头则清空分量，否则从当前目录继续；忽略空分量与单点，双点弹出一层但不越过根目录，其余分量压栈，最后用斜杠连接。",
+  "complexity": "时间 O(输入总长度)，空间 O(单条路径长度)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

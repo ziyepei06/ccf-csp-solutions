@@ -1,0 +1,12 @@
+{
+  "id": "201703-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201703/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "按空行与行首标记识别标题、列表、段落，分别输出对应 HTML 标签。行内递归处理强调与链接，使链接文字中的强调、强调中的链接都能正确转换；链接地址按原样保留。",
+  "complexity": "时间 O(文本总长度)，空间 O(文本总长度)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok",
+  "errata": "原镜像 HTML 样例输出的 code 内包含 h1/p 标签，转 Markdown 时标签被当作 HTML 剥除。"
+}

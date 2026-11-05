@@ -1,0 +1,11 @@
+{
+  "id": "201909-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201909/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "树形分组背包，f[u][j] 表示子树选 j 个候选城市的最小代价。合并孩子时，若其一侧选 k 个，则该边被 k(K−k) 对入选城市经过，贡献为边权乘此数量；在各子树中取足 K 个城市的最优值。",
+  "complexity": "时间上界 O(nK²)，空间 O(nK)，使用 64 位费用。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

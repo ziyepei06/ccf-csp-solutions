@@ -1,0 +1,9 @@
+{
+  "id": "202109-1",
+  "passed": 2,
+  "total": 2,
+  "approach": "最大值时每个 A_i 都取 B_i；最小值时 A_1=B_1，之后只有 B_i>B_{i-1} 的位置 A_i 必须等于 B_i，其余取 0。",
+  "complexity": "时间 O(n)，空间 O(n)（可降至 O(1)）",
+  "note": "",
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201612-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201612/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "枚举可能的税前整数工资，按分段累进税率计算所得税，找到税后收入等于输入值的工资。计税时仅超过起征点的部分进入累进区间。",
+  "complexity": "设工资枚举上界 U、税档数 C=7，时间 O(UC)，额外空间 O(1)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

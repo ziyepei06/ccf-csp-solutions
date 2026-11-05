@@ -1,0 +1,9 @@
+{
+  "id": "202412-2",
+  "passed": 2,
+  "total": 2,
+  "approach": "设 g(k)=Σ_{j=1..k}(a_j−b_j)（g(0)=0），正常巡查最少初始能量为 a0+max_{0≤k≤n}g(k)。第 i 区意外使 b_i=0，等价于所有 k≥i 的 g(k) 统一增加 b_i，故 w(i)=a0+max(max_{0≤k<i}g(k), b_i+max_{i≤k≤n}g(k))。预处理 g 的前缀最大值 pre[k] 与后缀最大值 suf[k] 后 O(n) 输出全部 w(i)。",
+  "complexity": "时间 O(n)，空间 O(n)",
+  "note": "子任务最大范围 n≤10^5 已完全覆盖；a,b≤1000 时 g 的量级约 10^8，用 long long 保存。已额外用暴力 O(n^2) 模拟对 1500 组随机数据交叉验证通过。",
+  "verification": "ok"
+}

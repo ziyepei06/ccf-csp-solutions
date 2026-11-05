@@ -1,0 +1,9 @@
+{
+  "id": "201712-1",
+  "passed": 2,
+  "total": 2,
+  "approach": "排序后最小差值必出现在相邻元素之间，取相邻差的最小值。",
+  "complexity": "时间 O(n log n)，空间 O(n)",
+  "note": "",
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201609-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201609/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "维护每排的剩余座位。每笔申请先从前到后找能在同排坐下的第一排，若不存在，则按座位编号顺序分散分配；每次分配立即更新剩余座位。",
+  "complexity": "设申请数 q、总座位数 S=100，时间 O(qS)，空间 O(S)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

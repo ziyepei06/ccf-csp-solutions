@@ -1,0 +1,9 @@
+{
+  "id": "201709-4",
+  "passed": 1,
+  "total": 1,
+  "approach": "对每个部门 i 在原图上正向 BFS、在反图上反向 BFS，两类可达点合并即 i 所知道的部门（自己双向可达，天然计入）；覆盖全部 N 个则答案 +1。",
+  "complexity": "时间 O(N(N+M))，空间 O(N^2 + N + M)（N=1000,M=10000 时约 1MB）",
+  "note": "",
+  "verification": "ok"
+}

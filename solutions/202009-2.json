@@ -1,0 +1,11 @@
+{
+  "id": "202009-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202009/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "逐人的轨迹检查是否进入矩形风险区；同时维护连续落在区内的次数，任一位置达到 k 即计为高风险。单次出现与连续停留分别统计。",
+  "complexity": "时间 O(nt)，额外空间 O(1)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

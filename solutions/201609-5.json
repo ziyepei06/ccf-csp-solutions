@@ -1,0 +1,11 @@
+{
+  "id": "201609-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201609/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "把横坐标离散化，按纵坐标分组扫描，维护各列扫描线两侧的石块数。祭坛等级由上下左右四向石块数的最小值决定，线段树求空隙内竖向能力最大值。先求最优等级，再扫描一次统计达到该等级的合法位置。",
+  "complexity": "时间 O(n log n)，空间 O(n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "202012-1",
+  "passed": 2,
+  "total": 2,
+  "approach": "直接按定义求 y：读入每项 w_i 与 score_i，累加 w_i*score_i，最后输出 max(0, sum)（即 ReLU）。",
+  "complexity": "时间 O(n)，空间 O(1)；n ≤ 1e5，累加上界 1e8，long long 足够，远低于 1000 ms。",
+  "note": "",
+  "verification": "ok"
+}

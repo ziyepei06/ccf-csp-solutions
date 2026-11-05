@@ -1,0 +1,11 @@
+{
+  "id": "201912-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201912/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "区块链用可持久化链表表示，传播事件按到达时间处理；接收方仅在更长或同长但字典序更优时切换链头，并继续向邻居传播。查询从对应结点的链头回溯输出。",
+  "complexity": "设实际传播事件数 E、比较链长 L，时间约 O(E(log E+L))，空间 O(E+生成区块数)。传播次数依赖输入事件。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

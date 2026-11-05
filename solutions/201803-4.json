@@ -1,0 +1,11 @@
+{
+  "id": "201803-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201803/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "在 3×3 棋盘上进行极大极小搜索。已有胜者时按剩余空格数加一计分并带胜负符号，平局得零；先手在可选落子中取最大值，后手取最小值。",
+  "complexity": "最坏时间 O(9!)，递归空间 O(9)。棋盘尺寸固定。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201903-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201903/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "从每个特殊点分别运行最短路，把到所有城市的距离按列保存。对每个城市排序其到特殊点的距离，取前 k 个有限距离累加；不可达特殊点不参与。",
+  "complexity": "设特殊点数 P，实现采用 SPFA，最坏 O(Pnm+nP log P)，空间 O(nP+n+m)。稠密或恶意数据应改用 Dijkstra 或多标签最短路。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

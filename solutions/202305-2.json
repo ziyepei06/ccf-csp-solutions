@@ -1,0 +1,10 @@
+{
+  "id": "202305-2",
+  "approach": "利用矩阵乘法结合律，先计算 d×d 的 B=KᵀV，再计算 QB，最后将第 i 行乘以 W[i]。不构造 n×n 的 QKᵀ，避免平方级时间和空间。",
+  "complexity": "时间 O(nd²)，空间 O(nd+d²)。题面范围下中间值和最终值用 64 位整数存储。",
+  "note": "",
+  "proof": "",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

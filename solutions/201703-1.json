@@ -1,0 +1,11 @@
+{
+  "id": "201703-1",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201703/1.cpp",
+  "license": "Apache-2.0",
+  "approach": "从左到右累加当前人的蛋糕，达到 k 后立即分给一人并清零；所有蛋糕处理完后若还有余量，再分给最后一人。",
+  "complexity": "时间 O(n)，额外空间 O(1)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

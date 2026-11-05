@@ -1,0 +1,10 @@
+{
+  "id": "202503-4",
+  "approach": "题中体育价值为 l·r·gcd(a[l..r])。固定右端点 r，向左扩展时 gcd 每次严格下降至少减半，因此不同 gcd 只有 O(log A) 种。维护每个 gcd 对应左端点的个数和左端点之和，新元素加入后统一取 gcd 并合并相邻相同值，贡献为 r·Σ(g·左端点和)。",
+  "complexity": "时间 O(n log² A)（计入 gcd 运算），空间 O(log A)，A≤10^6。",
+  "note": "",
+  "proof": "",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

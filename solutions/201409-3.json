@@ -1,0 +1,9 @@
+{
+  "id": "201409-3",
+  "passed": 1,
+  "total": 1,
+  "approach": "读入 S 与敏感选项；不敏感时把 S 和每行文字都转小写，再用 std::string::find 做子串匹配，命中则按原样输出该行。",
+  "complexity": "时间 O(n·L·|S|)（L 为行长约 100，实际 find 为线性扫描，总耗时极小），空间 O(L)",
+  "note": "",
+  "verification": "ok"
+}

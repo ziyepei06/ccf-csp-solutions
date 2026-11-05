@@ -1,0 +1,11 @@
+{
+  "id": "202009-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202009/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "任意两星球和球心共面。若两点间线段不穿入障碍球，最短路是直线距离；否则最短路由两段切线与球面大圆弧组成，长度为 √(a²−R²)+√(b²−R²)+R(中心夹角−两端切线夹角)。对每对星球算一次，分别计入两端答案。",
+  "complexity": "空间维数 n、星球数 m，时间 O(m²n)，空间 O(mn)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201612-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201612/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "用一个二进制集合表示卡牌归属。先计算双方各卡被选中的概率，再计算每张牌在一次对战中改变归属的概率，得到集合间转移。滚动数组迭代求最终全归一方的近似概率，并回答输入初始状态。",
+  "complexity": "预处理 O(n²2^n)，固定 T=1000 轮迭代 O(Tn2^n)，空间 O(n2^n)。固定轮数是数值近似，不构成所有输入的误差保证。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 3,
+  "total": 3,
+  "verification": "ok"
+}

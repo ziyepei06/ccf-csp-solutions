@@ -1,0 +1,11 @@
+{
+  "id": "201612-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201612/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "编码必须保持原顺序，使用有序二叉树的区间 DP：dp[l][r]=区间权和+min(dp[l][k]+dp[k+1][r])。利用最优分割点单调性缩小 k 的搜索区间，避免普通 Huffman 合并改变顺序。",
+  "complexity": "时间 O(n²)，空间 O(n²)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "201512-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201512/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "从 1 号点执行按邻点编号排序的 Hierholzer 算法，每条无向边只使用一次，回溯记录顶点后逆序。检查奇度顶点条件以及路径长度是否为 m+1，排除无法覆盖所有边的情况。",
+  "complexity": "排序 O(m log m)，遍历 O(n+m)，空间 O(n+m)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "approach": "反复右移一个数，同时统计总位数 len 与 1 的数量 cnt；它是平衡数当且仅当 2·cnt=len。输入均为正数，不计前导零。",
+  "complexity": "时间 O(n log A)，额外空间 O(1)。",
+  "proof": "每次处理恰好一个有效二进制位，0 的数量等于 len−cnt，故判定与定义等价。",
+  "note": "本册独立编写的 C++17 参考实现；仅声明实际完成的本地验证，不等同官方满分评测。",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok",
+  "random_cases": 0
+}

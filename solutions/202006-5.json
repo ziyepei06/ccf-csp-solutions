@@ -1,0 +1,11 @@
+{
+  "id": "202006-5",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202006/5.cpp",
+  "license": "Apache-2.0",
+  "approach": "把每个商品在内部购买、是否取端点购买的最优收益拆成带依赖的两个选择。利润为正接源、为负接汇，约束用无穷容量边表示，最大权闭合子图等于正利润总和减最小割。二次收益的区间最大值只需检查端点与顶点附近整数。",
+  "complexity": "建图 O(n+m)，一般 Dinic 最坏 O(V²E)，空间 O(V+E)，V=O(n)、E=O(n+m)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

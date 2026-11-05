@@ -1,0 +1,11 @@
+{
+  "id": "201609-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201609/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "先求首都到各点的最短距离。对每个非首都点，在所有满足 dist[u]+w=dist[v] 的前驱边中选费用最小的一条，累加这些边权；最短距离约束保证所选边可组成满足要求的最短路树。",
+  "complexity": "堆优化 Dijkstra 时间 O((n+m) log n)，空间 O(n+m)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

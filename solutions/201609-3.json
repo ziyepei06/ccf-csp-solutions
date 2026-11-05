@@ -1,0 +1,11 @@
+{
+  "id": "201609-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201609/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "双方分别维护英雄和有序随从列表。召唤在指定位置插入，攻击同时结算攻防伤害，之后删除死亡随从，回合结束交换行动方；读取英雄生命判断胜负并输出最终棋盘。",
+  "complexity": "操作数 q、随从上限 S≤7，时间 O(qS)，空间 O(S)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

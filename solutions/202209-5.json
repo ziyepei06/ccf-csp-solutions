@@ -1,0 +1,10 @@
+{
+  "id": "202209-5",
+  "approach": "设 S[i] 为体积前缀和。最后一段为 (j,i] 时，必须满足 m[j]<m[i]，代价为 (S[i]−S[j]−L)²，因此 dp[i]=min(dp[j]+该代价)。展开平方后，每个 j 对应斜率 −2S[j]、截距 dp[j]+(S[j]+L)² 的直线。按 m 建 Fenwick 树，每个结点维护下凸壳；S 递增使插入斜率、查询横坐标均单调，可以用双端队列摊还 O(1) 维护每个凸壳。",
+  "complexity": "时间 O(n log n)，空间 O(n log n)；交叉乘积使用 __int128，dp 使用 64 位整数。",
+  "note": "",
+  "proof": "",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

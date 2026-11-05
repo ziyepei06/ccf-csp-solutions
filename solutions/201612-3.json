@@ -1,0 +1,11 @@
+{
+  "id": "201612-3",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201612/3.cpp",
+  "license": "Apache-2.0",
+  "approach": "解析权限名及可选等级，角色存权限表，用户权限由其所有角色合并取最大等级。无等级查询输出布尔值；有等级权限未给查询等级时输出最高级别，给定等级时比较是否达到。",
+  "complexity": "设用户、角色、权限输入总量为 A，查询数 q；基于有序映射的时间 O((A+q) log A)，空间 O(A)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

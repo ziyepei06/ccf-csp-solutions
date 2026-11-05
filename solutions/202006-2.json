@@ -1,0 +1,11 @@
+{
+  "id": "202006-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202006/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "仅存非零坐标。把一个稀疏向量的下标与数值存为映射，遍历另一个向量，在共同非零下标处累加乘积，未出现的项视为零。",
+  "complexity": "平均时间 O(a+b)，空间 O(a)，结果使用 64 位整数。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

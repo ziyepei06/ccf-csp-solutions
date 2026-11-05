@@ -1,0 +1,9 @@
+{
+  "id": "202309-5",
+  "passed": 1,
+  "total": 1,
+  "approach": "边权转成收益减消耗，问题成为点修改下的树上最大路径和。用重链剖分维护动态树形 DP，每条链上的 max-plus 矩阵由线段树合成；修改后向上更新轻边贡献，根聚合量即答案。",
+  "complexity": "预处理 O(n log n)，每次修改 O(log² n)，空间 O(n log n)。",
+  "note": "",
+  "verification": "ok"
+}

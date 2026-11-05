@@ -1,0 +1,11 @@
+{
+  "id": "201809-2",
+  "source": "https://github.com/qzylalala/CSP/blob/master/201809/2.cpp",
+  "license": "Apache-2.0",
+  "approach": "把两人的装车时间区间标记在时间轴上，统计两人同时工作的整数单位时间段；区间按左闭右开处理，交于端点不增加时间。",
+  "complexity": "设最大时间 U，时间 O(nU+U)，空间 O(U)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 1,
+  "total": 1,
+  "verification": "ok"
+}

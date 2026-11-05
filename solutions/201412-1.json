@@ -1,0 +1,9 @@
+{
+  "id": "201412-1",
+  "passed": 1,
+  "total": 1,
+  "approach": "用大小为 n+1 的计数数组桶统计每个读者编号已出现次数，读入 x 时 cnt[x]++ 后直接输出 cnt[x]，即为该条记录是该读者第几次出现。",
+  "complexity": "时间 O(n)，空间 O(n)",
+  "note": "",
+  "verification": "ok"
+}

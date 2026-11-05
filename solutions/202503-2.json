@@ -1,0 +1,10 @@
+{
+  "id": "202503-2",
+  "approach": "设 dp[s] 为恰好喂完 s 个苹果的最大快乐值，dp[0]=0。枚举最后一天喂 i 个苹果，转移 dp[s]=max(dp[s−i]+A[i])。天数不限，按 s 递增计算即可；不能按单位收益贪心，因为剩余苹果也必须全部喂完。",
+  "complexity": "时间 O(nm)，空间 O(n+m)。",
+  "note": "",
+  "proof": "",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

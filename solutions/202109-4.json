@@ -1,0 +1,11 @@
+{
+  "id": "202109-4",
+  "source": "https://github.com/qzylalala/CSP/blob/master/202109/4.cpp",
+  "license": "Apache-2.0",
+  "approach": "状态为已经收集的卡牌集合 S 与金币数 c。抽到新卡转移到更大的集合，重复卡使金币加一；金币达到购买剩余卡所需数量时终止。按集合大小、金币数逆序计算期望，每一步期望加一次抽卡成本。",
+  "complexity": "时间 O(n²k2^n)，空间 O(nk2^n)。",
+  "note": "开源参考实现，整理者补充算法说明；未经官方评测机验证",
+  "passed": 2,
+  "total": 2,
+  "verification": "ok"
+}

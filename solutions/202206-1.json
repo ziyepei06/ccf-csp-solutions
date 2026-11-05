@@ -1,0 +1,9 @@
+{
+  "id": "202206-1",
+  "passed": 1,
+  "total": 1,
+  "approach": "一遍扫描求和得平均值 mean=sum/n，再一遍求 sum((ai-mean)^2)/n 得方差 D，标准差 sd=sqrt(D)，对每个 ai 输出 (ai-mean)/sd，固定 10 位小数（误差 ≤5e-11，远小于 1e-4）。",
+  "complexity": "时间 O(n)，空间 O(n)（存原数组以便第二遍计算）；n ≤ 1000，1000 ms / 524288 KB 内轻松通过。",
+  "note": "题面保证方差 D≥1，因此 sd 不会为 0，无需特判除零；浮点用 double，读数后先转 double 再累加避免整型截断。",
+  "verification": "ok"
+}

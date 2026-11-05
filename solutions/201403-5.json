@@ -1,0 +1,9 @@
+{
+  "id": "201403-5",
+  "passed": 1,
+  "total": 1,
+  "approach": "把独占双 CPU 的任务串行安排，其余任务分配到两个 CPU 并维护 GPU 负载。设 u、v 为双 CPU 块加各 CPU 的负载，dp[u][v] 存最小 GPU 负载 w；逐任务枚举四种方式及 CPU 对称选择，答案为 min max(u,v,w)。",
+  "complexity": "时间 O(nS²)，空间 O(S²)，S≤400。",
+  "note": "",
+  "verification": "ok"
+}
